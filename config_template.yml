@@ -1,0 +1,73 @@
+# # #   Copyright PDGH Minecraft Servers & HostLoad © 2013-XXXX   # # #
+# # #                Todos os direitos reservados!                # # #
+# # #   Uso apenas para a PDGH.com.br e https://HostLoad.com.br   # # #
+# # # Caso você tenha acesso a esse sistema, você é privilegiado! # # #
+# # #               Use {deathmatch} no LegendChat.               # # #
+autoStart: #dias: domingo, segunda, terca, quarta, quinta, sexta, sabado, todos
+  ativado: true
+  dias:
+    - todos-1300
+    - domingo-2010
+    - segunda-1810
+    - segunda-2010
+    - terca-1810
+    - terca-2010
+    - quarta-1810
+    - quinta-1810
+    - quinta-2010
+    - sexta-1810
+    - sexta-2010
+    - sabado-2010
+
+mundoPrincipal: world
+mundoDoDM: world_eventos
+premio: 10000.0
+tags: #Use {deathmatch} no LegendChat. OBS: A TAG SPEC não é uma TAG de chat
+  vencedor: '&c[DM]'
+
+comandos:
+  denyEventoOn: #comandos globais bloqueados com o evento ocorrendo (sem /)
+  - "/ret"
+  - "/bring"
+  allowEvento: #comandos liberados dentro do evento (sem /)
+  - "/d"
+  - "/desbugar"
+  - "/dm"
+  - "/g"
+  - "/."
+  - "/ally"
+  - "/tell"
+  - "/r"
+  - "/ban"
+  - "/tp"
+  - "/fake"
+  - "/oi"
+  - "/fly"
+  - "/kick"
+  - "/ungod"
+  - "/god"
+  - "/v"
+
+sistema:
+  jogadoresMinimos: 2 #mínimo de jogadores no evento
+  fragLimite: 30 #o primeiro que matar a quantidade definida de jogadores ganha.
+  tempo: #todos os valores=segundos
+    preparar:
+      avisos: 20
+      tempoEntre: 10
+    iniciando:
+      avisos: 3
+      tempoEntre: 5
+    finalizando: 15
+    tempoLimite: 3600 #60 minutos = 3600 segundos
+  itens:
+    vazio: true #true=o jogador só pode entrar no evento com o inventário vazio
+    clearInv: true #true=o jogador tem o inventário limpo após entrar no evento
+    clearPot: true #true=o jogador tem as poções limpas após entrar no evento
+    denyDropXP: true #true=o jogador não dropa XP no evento
+    denyDrop: true #true=o jogador não dropa itens no evento
+    darItens: true #true=o jogador recebe itens no evento
+    semFome: false #true=o jogador não sentirá fome dentro do evento
+
+#caso tenha o plugin PDGHEventos e use o mesmo mundo, deixe 'true'.
+APIPDGHEventos: false

@@ -1,0 +1,17 @@
+armadura:
+- ==: org.bukkit.inventory.ItemStack
+  type: AIR
+  damage: -1
+  amount: 0
+- ==: org.bukkit.inventory.ItemStack
+  type: AIR
+  damage: -1
+  amount: 0
+- ==: org.bukkit.inventory.ItemStack
+  type: AIR
+  damage: -1
+  amount: 0
+- ==: org.bukkit.inventory.ItemStack
+  type: AIR
+  damage: -1
+  amount: 0

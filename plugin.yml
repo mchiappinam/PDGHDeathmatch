@@ -1,0 +1,10 @@
+name: PDGHDeathmatch
+main: me.mchiappinam.pdghdeathmatch.Main
+version: 1.0
+depends: [SimpleClans,Vault,Legendchat,PDGHEventos,PDGHNoob,PDGHAPIUtility]
+website: https://hostload.com.br/ & http://pdgh.com.br/
+author: mchiappinam
+commands:
+   dm:
+      description: Info.
+      usage: /<command> ?
